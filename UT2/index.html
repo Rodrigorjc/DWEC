@@ -7,6 +7,47 @@
     <script src="ut2.js"></script>
 </head>
 <body>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 20px;
+            color: #333;
+        }
+
+        h1 {
+            font-size: 40px;
+            text-align: center;
+            color: #4A90E2;
+            margin: 0;
+        }
+
+        h2 {
+            color: black;
+            font-size: 30px;
+            margin: 0;
+        }
+
+        button {
+            background-color: #d89211f8;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            margin: 10px 5px;
+            margin-bottom: 20px;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
     <div>
         <h1>Rodrigo Jaén Cobos DAW2 DWEC</h1>
     </div>
@@ -16,7 +57,6 @@
     <button onclick="ejercicio2()">Click</button>
     <h2>Ejerciocio 3</h2>
     <button onclick="ejercicio3()">Click</button>
-    <div id="alumnos-div"></div>
     <h2>Ejerciocio 4</h2>
     <button onclick="ejercicio4()">Click</button>
     <h2>Ejerciocio 5</h2>
@@ -24,6 +64,10 @@
     <h2>Ejerciocio 6</h2>
     <button onclick="ejercicio6()">Click</button>
     <h2>Ejerciocio 7</h2>
-    <button onclick="ejercicio7()">Click</button>
+    <button onclick="agregarTarea()">Agregar Tarea</button>
+    <button onclick="completarTarea()">Completar Tarea</button>
+    <button onclick="eliminarTarea()">Eliminar Tarea</button>
+    <button onclick="mostrarLista()">Mostrar Lista</button>
+    <button onclick="mostrarPendientes()">Mostrar Pendientes</button>
 </body>
 </html>
